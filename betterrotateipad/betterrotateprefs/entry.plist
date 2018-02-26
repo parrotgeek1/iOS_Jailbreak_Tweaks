@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = BetterRotatePrefs;
+		cell = PSLinkCell;
+		detail = "BetterRotatePrefsListController";
+		icon = "BetterRotatePrefs.png";
+		isController = 1;
+		label = BetterRotate;
+	};
+}

@@ -1,0 +1,9 @@
+Package: net.parrotgeek.br.ipad
+Name: BetterRotate for iPad
+Depends: mobilesubstrate, gsc.ipad
+Version: 1.1-2
+Architecture: iphoneos-arm
+Description: Make icon layout consistent across orientations
+Maintainer: parrotgeek1 <parrotgeek1@gmail.com>
+Author: parrotgeek1 <parrotgeek1@gmail.com>
+Section: Tweaks
