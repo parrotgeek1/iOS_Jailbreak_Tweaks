@@ -15,3 +15,9 @@
 - (void)showDeveloperBuildExpirationAlertIfNecessaryFromLockscreen:(_Bool)arg1 toLauncher:(_Bool)arg2 {}
 
 %end
+
+%hook SBPlatformController
+
+- (_Bool)isDeveloperDevice { return NO; }
+
+%end
