@@ -1,0 +1,9 @@
+Package: com.parrotgeek.nobetaalert
+Name: NoBetaAlert
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Hide "Please update from the iOS beta" alert (iOS 8-11)
+Maintainer: Ethan Nelson-Moore
+Author: Ethan Nelson-Moore
+Section: Tweaks
