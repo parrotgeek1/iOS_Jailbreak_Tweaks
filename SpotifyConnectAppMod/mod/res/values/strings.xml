@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Spotify Connect</string>
-    <string name="com.crashlytics.android.build_id">bb9dd081-bee6-4c8d-bba1-cae9145b2a9d</string>
-    <string name="notification_title">Spotify Connect is enabled</string>
-</resources>
