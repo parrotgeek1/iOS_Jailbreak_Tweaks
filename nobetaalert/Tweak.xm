@@ -16,8 +16,7 @@
 
 %end
 
-%hook SBPlatformController
-
-- (_Bool)isDeveloperDevice { return NO; }
-
+// might help
+%hook SBLockdownManager
+- (id)developerBuildExpirationDate { return [NSDate distantFuture]; }
 %end
