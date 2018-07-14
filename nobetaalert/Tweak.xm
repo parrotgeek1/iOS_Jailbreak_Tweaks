@@ -13,6 +13,8 @@
 %hook SBDeveloperBuildExpirationTrigger
 
 - (void)showDeveloperBuildExpirationAlertIfNecessaryFromLockscreen:(_Bool)arg1 toLauncher:(_Bool)arg2 {}
+//Expiration property moved  in 11.4 beta 3
+- (NSDate *)expirationDate { return [NSDate distantFuture]; }
 
 %end
 
