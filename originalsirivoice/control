@@ -1,0 +1,10 @@
+Package: com.parrotgeek.siriv
+Name: Original Siri Voice (iOS 7-9)
+Depends: mobilesubstrate, gsc.assistant, firmware (>= 7.0), firmware (<< 10)
+Architecture: iphoneos-arm
+Description: In all its infamous, robotic glory!
+Maintainer: @parrotgeek1
+Author: @parrotgeek1
+Section: Tweaks
+Version: 1.0
+Installed-Size: 120

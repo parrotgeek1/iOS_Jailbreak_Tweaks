@@ -1,0 +1,3 @@
+#!/bin/sh
+sed -i '/iphone.heinelt.eu/d' /etc/hosts
+exit 0

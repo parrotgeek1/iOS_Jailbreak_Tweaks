@@ -1,0 +1,6 @@
+#!/bin/sh
+if ! grep -qF iphone.heinelt.eu /etc/hosts; then
+	echo '0.0.0.0 iphone.heinelt.eu' >> /etc/hosts
+	echo '::0 iphone.heinelt.eu' >> /etc/hosts
+fi
+exit 0

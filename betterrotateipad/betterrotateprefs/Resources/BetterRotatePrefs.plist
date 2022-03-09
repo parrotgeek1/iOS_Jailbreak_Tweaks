@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>net.parrotgeek.br.ipad</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>BetterRotate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>defaults</key>
+			<string>net.parrotgeek.br.ipad</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>orient</string>
+			<key>label</key>
+			<string>Icon Layout</string>
+			<key>validTitles</key>
+			<array>
+				<string>5 x 4 (like portrait)</string>
+				<string>4 x 5 (like landscape)</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>4</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply and Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>website:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>parrotgeek.com</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@parrotgeek1</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>BetterRotate</string>
+</dict>
+</plist>

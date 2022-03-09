@@ -1,0 +1,9 @@
+Package: com.parrotgeek.nobetaalert
+Name: NoBetaAlert
+Depends: mobilesubstrate, firmware (>= 9)
+Version: 1.4.4
+Architecture: iphoneos-arm
+Description: Hide "Please update from the iOS beta" alert (iOS 9-14.x)
+Maintainer: Ethan Nelson-Moore
+Author: Ethan Nelson-Moore
+Section: Tweaks
